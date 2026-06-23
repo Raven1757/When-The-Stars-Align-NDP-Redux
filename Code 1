@@ -1,0 +1,939 @@
+campaignTrail_temp.election_json = [
+    {
+        "model": "campaign_trail.election",
+        "pk": 20,
+        "fields": {
+            "year": 2019,
+            "display_year": "2019-WTSA",
+            "summary": "Ever since 2015's federal election saw the NDP candidate Jack Layton win a minority government, Canada has seen a large shift leftwards. Healthcare has been reformed and cooperation between parties has seen a surge. This all was temporary however. With Harper gone and the rise of Maxime Bernier, the Conservatives became nothing more than a no-party, rejecting Layton's bills without reason. Then in a dramatic shift in Canadian politics, the Liberal party collapsed. Its two 3rd place finishes and no one running for its leadership ultimately lead to the party's implosion.The nation saw it's oldest party fall from leading the government to leading the opposition and now completly collapsing",
+            "image_url": "https://imgs.search.brave.com/rSm-OQyaPA3ZHm9nENEJQdDM-hzIL9ihw1Bj15CupvI/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly90aHVt/YnMuZHJlYW1zdGlt/ZS5jb20vYi9lbGVj/dGlvbnMtY2FuYWRh/LXZvdGUtc2lnbi1m/cm9udC1wb2xsaW5n/LXN0YXRpb24tc3Qt/aGVybWVuZWdpbGRl/LWNhLW9jdG9iZXIt/MTYxMTc1MDEwLmpw/Zw",
+            "winning_electoral_vote_number": 0,
+            "advisor_url": "https://imgs.search.brave.com/Fuch4QWGPqaqchrIQa-hKVoZvaT1c9io8itnx4-mAbw/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9nbG9i/YWxuZXdzLmNhL3dw/LWNvbnRlbnQvdXBs/b2Fkcy8yMDExLzA4/L2xheXRvbmNhbmUu/anBnP3F1YWxpdHk9/NjUmc3RyaXA9YWxs" ,
+            "recommended_reading": "<ul>\n<li><a href=https://www.chicagotribune.com/opinion/editorials/ct-edit-chicago-tribune-biden-endorsement-20200925-lnyxsb5qvrftnjjmj3rnzj33jy-story.html>Our Case For Joe Biden</a></li>\n</ul>",
+            "recommended_reading_enabled": false,
+            "has_visits": 0,
+            "no_electoral_majority_image": "../static/images/2012-no-majority.jpg"
+        }
+    }
+];
+
+campaignTrail_temp.temp_election_list = [
+    {
+        "id": 20,
+        "year": 2019,
+        "is_premium": 0,
+        "display_year": "2019-WTSA"
+    }
+];
+
+campaignTrail_temp.credits = "Raven1757";
+
+campaignTrail_temp.global_parameter_json = [
+    {
+        "model": "campaign_trail.global_parameter",
+        "pk": 1,
+        "fields": {
+            "vote_variable": 1.125,
+            "max_swing": 0.12,
+            "start_point": 0.94,
+            "candidate_issue_weight": 10,
+            "running_mate_issue_weight": 3,
+            "issue_stance_1_max": -0.71,
+            "issue_stance_2_max": -0.3,
+            "issue_stance_3_max": -0.125,
+            "issue_stance_4_max": 0.125,
+            "issue_stance_5_max": 0.3,
+            "issue_stance_6_max": 0.71,
+            "global_variance": 0.01,
+            "state_variance": 0.005,
+            "question_count": 25,
+            "default_map_color_hex": "#C9C9C9",
+            "no_state_map_color_hex": "#999999"
+        }
+    }
+];
+
+campaignTrail_temp.candidate_json = [
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 1001,
+        "fields": {
+            "first_name": "Jack ",
+            "last_name": "Layton",
+            "election": 20,
+            "party": "New Democratic",
+            "state": "Ontario",
+            "priority": 1,
+            "description": "Once 2011 came you knew that Canadians would see the truth. You were the one to choose next time. There were days where the cancer seemed like it was on the verge of ripping everything away but you kept fighting and managed to push it off again. You lived and now have seen your party rise to lead a minority government for the first time in history. First with a minority and now, after the collapse of the Liberals, a majority. Hopefully you've earned the Canadian people's trust for a second term.",
+            "color_hex": "#ff7b00",
+            "secondary_color_hex": null,
+            "is_active": 1,
+            "image_url": "https://imgs.search.brave.com/8lb_MZPh6yrv2-4l5ZULoimJMvRaJyetNv2wybjUO6g/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9jZG4u/YnJpdGFubmljYS5j/b20vNDcvMTMyMDQ3/LTAwNC1GN0JFMjFC/Ri9KYWNrLUxheXRv/bi0yMDA2LmpwZw",
+            "electoral_victory_message": "Canada has seen your light and chosen to stay for 4 more years. You can rest now",
+            "electoral_loss_message": "Canada has seen your light and rejected it. It's sad to think about but rest for now. Canada will see tommorow",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": null,
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 1002,
+        "fields": {
+            "first_name": "Maxime",
+            "last_name": "Bernier",
+            "election": 20,
+            "party": "Conservative",
+            "state": "Quebec",
+            "priority": 1,
+            "description": "NOT PLAYABLE ON INITIAL RELEASE What a joke. How the hell did Harper lose? No matter. You need to step up and lead the opposition. You've always felt this need to get it but it was never under these circumstances. You always felt that this was inevitable. Your victory was practically a red carpet for you and your wing. You had to sacrifice your libertarian views for more strict right wing policies. The conservatives have lost their way after the Liberal defections but you are here to keep them back on track. You won the leadership of the party. Now onto the leadership of the nation.",
+            "color_hex": "#004db3",
+            "secondary_color_hex": "#002185",
+            "is_active": 1,
+            "image_url": "https://imgs.search.brave.com/TWwueiP-cJ0g53RGGdh3CiGCJvI-CdCOu3TCTu4XXhM/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9jZG4u/cHJvZC53ZWJzaXRl/LWZpbGVzLmNvbS82/MWI5NWYzZmExMmFi/NTlhNTJkM2ZmZDQv/NjFmMDgwMjBlMGE1/MTllMGU2NTZhNTA5/X2Jlcm5pZXIuanBl/Zw",
+            "electoral_victory_message": "Canada has seen socialism in effect and chosen a different path. You stand and watch the results with pure joy.",
+            "electoral_loss_message": "Canada has seen socialism in effect and decided it's here to stay. You are profoundly disappointed but it was never your choice.",
+            "no_electoral_majority_message": "Majority?",
+            "description_as_running_mate": null,
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 1003,
+        "fields": {
+            "first_name": "New",
+            "last_name": "Democrats",
+            "election": 20,
+            "party": "NDP",
+            "state": "Your Heart",
+            "priority": 1,
+            "description": "",
+            "color_hex": "#CCCCCC",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://imgs.search.brave.com/qZ-5c8FKpmI4xSK53pPECaZAiNlj5LOVBRVmPgIREdI/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/bmF0aW9uYnVpbGRl/cnRoZW1lcy5jYS9k/Y2ZmZGMvdHI6dy01/NTAsZm8tY2VudGVy/LGFyLTEtMSxxLTg1/L3BhZ2VzLzg5MS9h/dHRhY2htZW50cy9v/cmlnaW5hbC8xNjIx/NTU5NDkxL0phY2tf/TGF5dG9uX3JhbGx5/LmpwZz8xNjIxNTU5/NDkx",
+            "electoral_victory_message": "",
+            "electoral_loss_message": "",
+            "no_electoral_majority_message": "Majority?",
+            "description_as_running_mate": "Your people. You are doing this all for them. There was always doubt in your heart about your leadership but there's no doubt in theirs that you are their leader. Ever since the start of your political career you've felt their love. They're support of you. Now you are their voice. Their leader. They'll support you without question and you'll do everything in your power to help them.",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 1004,
+        "fields": {
+            "first_name": "Conservative",
+            "last_name": "Party",
+            "election": 20,
+            "party": "CPC",
+            "state": "Quebec",
+            "priority": 1,
+            "description": "",
+            "color_hex": "#0024b3",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://imgs.search.brave.com/afgRqQcOJqzzkVJfwz5S9Mnf0jgOccXJGdcmyZbFqVo/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9zdGF0/aWMud2lraWEubm9j/b29raWUubmV0L2xv/Z29wZWRpYS9pbWFn/ZXMvMC8wNy9Db25z/ZXJ2YXRpdmVfUGFy/dHlfb2ZfQ2FuYWRh/XzIwMDMtMjAxOC5z/dmcvcmV2aXNpb24v/bGF0ZXN0L3NjYWxl/LXRvLXdpZHRoLWRv/d24vMjUwP2NiPTIw/MjMwNDEwMjAxNDE3",
+            "electoral_victory_message": "",
+            "electoral_loss_message": "",
+            "no_electoral_majority_message": "Majority?",
+            "description_as_running_mate": "These are your people. They are begging for a champion to lead them to power again. They have been dissapointed before and they've survived. You Maxime Bernier are their champion now. They've been dissapointed but they don't deal with it lightly, don't disappoint them",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 1005,
+        "fields": {
+            "first_name": "Justin",
+            "last_name": "Trudeau",
+            "election": 20,
+            "party": "Liberal",
+            "state": "Quebec",
+            "priority": 1,
+            "description": "",
+            "color_hex": "#b30000",
+            "secondary_color_hex": null,
+            "is_active": 1,
+            "image_url": "https://imgs.search.brave.com/-FieqlMTlrt4KzELsEX2aW8rjbyZsHKGc3GIbt5YYNA/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly93d3cu/YWxqYXplZXJhLmNv/bS93cC1jb250ZW50/L3VwbG9hZHMvMjAy/NS8wMy8yMDI1LTAz/LTA5VDIyMDkzNlpf/NzU5MTExNzQ0X1JD/Mlg5REE0NFdLVF9S/VFJNQURQXzNfQ0FO/QURBLVBPTElUSUNT/LTE3NDE5MDE3MTYu/anBnP3Jlc2l6ZT03/NzAsNTEzJnF1YWxp/dHk9ODA",
+            "electoral_victory_message": "",
+            "electoral_loss_message": "",
+            "no_electoral_majority_message": "Majority?",
+            "description_as_running_mate": "null",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 1006,
+        "fields": {
+            "first_name": "Liberal",
+            "last_name": "Party",
+            "election": 20,
+            "party": "LPC",
+            "state": "Your Nation",
+            "priority": 1,
+            "description": "",
+            "color_hex": "#b30000",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://imgs.search.brave.com/-FieqlMTlrt4KzELsEX2aW8rjbyZsHKGc3GIbt5YYNA/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly93d3cu/YWxqYXplZXJhLmNv/bS93cC1jb250ZW50/L3VwbG9hZHMvMjAy/NS8wMy8yMDI1LTAz/LTA5VDIyMDkzNlpf/NzU5MTExNzQ0X1JD/Mlg5REE0NFdLVF9S/VFJNQURQXzNfQ0FO/QURBLVBPTElUSUNT/LTE3NDE5MDE3MTYu/anBnP3Jlc2l6ZT03/NzAsNTEzJnF1YWxp/dHk9ODA",
+            "electoral_victory_message": "",
+            "electoral_loss_message": "",
+            "no_electoral_majority_message": "Majority?",
+            "description_as_running_mate": "null",
+            "candidate_score": 1,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 1007,
+        "fields": {
+            "first_name": "Yves",
+            "last_name": "François Blanchet",
+            "election": 20,
+            "party": "Bloc Quebecois",
+            "state": "Quebec",
+            "priority": 1,
+            "description": "",
+            "color_hex": "#0caad1",
+            "secondary_color_hex": null,
+            "is_active": 1,
+            "image_url": "https://imgs.search.brave.com/o1DBY_AbzStOVHOI0cOPXbqbLBxcFvH8vkqBprZf_nI/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMjIx/MDExMzEyMS9waG90/by9tb250cmVhbC1x/dWViZWMtYmxvYy1x/dWViZWNvaXMtbGVh/ZGVyLXl2ZXMtZnJh/bmNvaXMtYmxhbmNo/ZXQtYWNjb21wYW5p/ZWQtYnktaGlzLXdp/ZmUtbmFuY3kuanBn/P3M9NjEyeDYxMiZ3/PTAmaz0yMCZjPXRX/NzBjbTI1NnQ4dGVZ/TE43UlM2bF8xVHRs/S2pxX3FMQ09GaUVV/RGtMSWc9",
+            "electoral_victory_message": "",
+            "electoral_loss_message": "",
+            "no_electoral_majority_message": "Majority?",
+            "description_as_running_mate": "null",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+        }
+];
+
+campaignTrail_temp.running_mate_json = [
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 500,
+        "fields": {
+            "candidate": 1001,
+            "running_mate": 1003
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 501,
+        "fields": {
+            "candidate": 1002,
+            "running_mate": 1004
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 502,
+        "fields": {
+            "candidate": 1005,
+            "running_mate": 1006
+        }
+        }
+        ,
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 503,
+        "fields": {
+            "candidate": 1007
+        }
+        }
+];
+
+campaignTrail_temp.opponents_default_json = [
+    {
+        "election": 20,
+        "candidates": [
+            1001,
+            1002,
+            1003,
+            1004,
+            1005,
+            1006,
+            1007
+        ]
+    }
+];
+
+campaignTrail_temp.opponents_weighted_json = [
+    {
+        "election": 20,
+        "candidates": [
+            1001,
+            1002,
+            1003,
+            1004,
+            1005,
+            1006
+        ]
+    }
+];
+
+jet_data = {
+    "headerColor": "#db6a00",
+    "headerTextColor": "#ffffff",
+    "windowColor": "#bfe6ff",
+    "containerColor": "#c5dfec",
+    "innerWindowColor": "#5d6365",
+    "innerWindowTextColor": "#ffffff",
+    "descriptionWindowColor": "#ffffff",
+    "descriptionWindowTextColor": "#000000",
+    "startButtonColor": "#ff8800",
+    "bannerImageUrl": "https://imgs.search.brave.com/P62K1xPrWzRerezCgvJ-8QCZsvn5YfdvL84ZvG3sRdQ/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvODMw/ODE3ODcvcGhvdG8v/amFjay1sYXl0b24t/bGVhZGVyLW9mLXRo/ZS1uZXctZGVtb2Ny/YXRpYy1wYXJ0eS1h/ZGRyZXNzZXMtdGhl/LW1lZGlhLWZvbGxv/d2luZy10aGUtZnJl/bmNoLmpwZz9zPTYx/Mng2MTImdz0wJms9/MjAmYz0taHhZcnk4/UEtta2hLM1pMOUdS/UUp0UEZPTkd3ZmxE/ZzN6ZVZfUHZ3eWJF/PQ",
+    "backgroundImageUrl": "https://www.jetsimon.com/public/static/images/background.jpg",
+    "gameTitle": "When The Stars Align",
+    "customQuote": "My friends, love is better than anger.  Hope is better than fear. Optimism is better than despair. So let us be loving, hopeful and optimistic. And we’ll change the world.",
+    "quoteTextColor": "#ffffff",
+    "endingTextColor": "#000000"
+};
+
+//#startcode
+function applyTheme(theme) {
+    const gameHeader = document.querySelector(".game_header");
+    if (gameHeader && theme.coloring_title) {
+        gameHeader.style.backgroundColor = theme.coloring_title;
+    }
+
+    const gameWindow = document.getElementById("game_window");
+    if (gameWindow && theme.coloring_window) {
+        gameWindow.style.backgroundColor = theme.coloring_window;
+    }
+
+    const container = document.querySelector(".container");
+    if (container && theme.coloring_container) {
+        container.style.backgroundColor = theme.coloring_container;
+    }
+
+    const headerImg = document.getElementById("header");
+    if (headerImg && theme.header_image) {
+        headerImg.src = theme.header_image;
+    }
+
+    if (theme.body_background) {
+        document.body.style.backgroundImage = `url("${theme.body_background}")`;
+        document.body.style.backgroundSize = "cover";
+        document.body.style.backgroundAttachment = "fixed";
+    }
+
+    const style = document.createElement("style");
+    style.textContent = `
+      #results_container { color: #000000; }
+      #wittyquote { color: #ffffff; }
+      .game_header h2 { color: #ffffff; }
+      .inner_window_w_desc { background-color: #5d6365 !important; color: #ffffff; }
+      .inner_window_front, .person_description_window, .election_description_window, .description_window_small { background-color: #ffffff !important; color: #000000; }
+      .campaign_trail_start_emphasis { background-color: #ff8800 !important; }
+    `;
+    document.head.appendChild(style);
+}
+
+corrr = '\n              <h2>When The Stars Align</h2><font id="wittyquote" size="4"><em>My friends, love is better than anger.  Hope is better than fear. Optimism is better than despair. So let us be loving, hopeful and optimistic. And we’ll change the world.</em></font>\n            ';
+
+const theme = nct_stuff.themes[nct_stuff.selectedTheme];
+
+// define / override theme values
+theme.coloring_title     = "#db6a00";
+theme.coloring_window    = "#bfe6ff";
+theme.coloring_container = "#c5dfec";
+theme.header_image = "https://imgs.search.brave.com/P62K1xPrWzRerezCgvJ-8QCZsvn5YfdvL84ZvG3sRdQ/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvODMw/ODE3ODcvcGhvdG8v/amFjay1sYXl0b24t/bGVhZGVyLW9mLXRo/ZS1uZXctZGVtb2Ny/YXRpYy1wYXJ0eS1h/ZGRyZXNzZXMtdGhl/LW1lZGlhLWZvbGxv/d2luZy10aGUtZnJl/bmNoLmpwZz9zPTYx/Mng2MTImdz0wJms9/MjAmYz0taHhZcnk4/UEtta2hLM1pMOUdS/UUp0UEZPTkd3ZmxE/ZzN6ZVZfUHZ3eWJF/PQ";
+theme.body_background = "https://www.jetsimon.com/public/static/images/background.jpg";
+
+applyTheme(theme);
+//#endcode
+// This is a SoundCloud-themed
+// music player.
+class Song {
+    constructor(title, artist, coverLink, audioLink) {
+        this.title = title;
+        this.artist = artist;
+        this.coverLink = coverLink;
+        this.audioLink = audioLink;
+    }
+}
+
+class Playlist {
+    constructor() {
+        this.songs = [];
+        this.currentSongIndex = 0;
+    }
+    addSong(song) { this.songs.push(song); }
+    getCurrentSong() { return this.songs[this.currentSongIndex]; }
+    playNext() { this.currentSongIndex = (this.currentSongIndex + 1) % this.songs.length; }
+    playPrevious() { this.currentSongIndex = (this.currentSongIndex - 1 + this.songs.length) % this.songs.length; }
+}
+
+window.Playlist = Playlist;
+window.Song = Song;
+
+let activePlaylist = new Playlist();
+let audioInstance = null;
+let audioCtx = null;
+let isDraggingWaveform = false;
+let waveformCache = new Map();
+let waveformBaseCanvasCache = new Map();
+let waveformRequestId = 0;
+let waveformAnimationId = null;
+
+// assets
+const ASSETS = {
+    play: `
+    <svg class="sc-icon sc-play-svg" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <path d="M8 5.14v13.72c0 .72.78 1.17 1.4.81l10.2-6.86a.95.95 0 0 0 0-1.58L9.4 4.33A.94.94 0 0 0 8 5.14Z" fill="currentColor"></path>
+    </svg>`,
+    pause: `
+    <svg class="sc-icon sc-pause-svg" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <rect x="6" y="5" width="4" height="14" rx="1" fill="currentColor"></rect>
+      <rect x="14" y="5" width="4" height="14" rx="1" fill="currentColor"></rect>
+    </svg>`,
+    prev: `<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M4.44444 3C4.19898 3 4 3.20147 4 3.45V20.55C4 20.7985 4.19898 21 4.44444 21H6.22222C6.46768 21 6.66667 20.7985 6.66667 20.55V12.5625L19.32 20.5697C19.616 20.757 20 20.5415 20 20.1881V3.81191C20 3.45847 19.616 3.24299 19.32 3.43031L6.66667 11.4375V3.45C6.66667 3.20147 6.46768 3 6.22222 3H4.44444Z" fill="currentColor"></path></svg>`,
+    next: `<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M17.7778 3C17.5323 3 17.3333 3.20147 17.3333 3.45V11.4375L4.68 3.43031C4.38398 3.24299 4 3.45847 4 3.81191V20.1881C4 20.5415 4.38398 20.757 4.68 20.5697L17.3333 12.5625V20.55C17.3333 20.7985 17.5323 21 17.7778 21H19.5556C19.801 21 20 20.7985 20 20.55V3.45C20 3.20147 19.801 3 19.5556 3H17.7778Z" fill="currentColor"></path></svg>`,
+    vol: `<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M7.14645 1.85356C7.46143 1.53858 8 1.76167 8 2.20712V13.7929C8 14.2384 7.46143 14.4614 7.14645 14.1465L4 11H1.5C1.22386 11 1 10.7762 1 10.5V5.50001C1 5.22387 1.22386 5.00001 1.5 5.00001H4L7.14645 1.85356Z" fill="currentColor"></path><path d="M15 7.99997C15 11.1453 12.5798 13.7254 9.5 13.9794V12.4725C11.75 12.2238 13.5 10.3162 13.5 7.99997C13.5 5.68369 11.75 3.77616 9.5 3.52744V2.02051C12.5798 2.27458 15 4.85464 15 7.99997Z" fill="currentColor"></path><path d="M12 7.99997C12 9.48647 10.9189 10.7205 9.5 10.9585V5.04145C10.9189 5.27949 12 6.51347 12 7.99997Z" fill="currentColor"></path></svg>`
+};
+
+// draw a placeholder waveform to show loading activity
+function drawPlaceholderWaveform() {
+    const canvas = document.getElementById("waveform-canvas");
+    if (!canvas) return;
+    const ctx = canvas.getContext("2d");
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+    const barWidth = 2;
+    const gap = 1;
+    const stride = barWidth + gap;
+    const samples = Math.floor(canvas.width / stride);
+
+    ctx.fillStyle = "#e0e0e0";
+    for (let i = 0; i < samples; i++) {
+        const x = i * stride;
+        const h = (Math.sin(i * 0.08) * 0.12 + 0.22) * canvas.height;
+        ctx.fillRect(x, canvas.height - h, barWidth, h);
+    }
+}
+
+// animate transition from the placeholder wave to the real wave
+function animateWaveformSweep(baseCanvas) {
+    const canvas = document.getElementById("waveform-canvas");
+    if (!canvas) return;
+    const ctx = canvas.getContext("2d");
+
+    const duration = 650;
+    const startTime = performance.now();
+
+    function step(now) {
+        if (!canvas) return;
+        const elapsed = now - startTime;
+        const progress = Math.min(elapsed / duration, 1);
+
+        const easeProgress = 1 - Math.pow(1 - progress, 3);
+        const revealWidth = canvas.width * easeProgress;
+
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+        // draw the placeholder waveform on the right side of the sweep threshold
+        const barWidth = 2;
+        const gap = 1;
+        const stride = barWidth + gap;
+        const samples = Math.floor(canvas.width / stride);
+
+        ctx.fillStyle = "#e0e0e0";
+        for (let i = 0; i < samples; i++) {
+            const x = i * stride;
+            if (x >= revealWidth) {
+                const h = (Math.sin(i * 0.08) * 0.12 + 0.22) * canvas.height;
+                ctx.fillRect(x, canvas.height - h, barWidth, h);
+            }
+        }
+
+        // overlay the completed real waveform on the left side of the threshold
+        ctx.drawImage(
+            baseCanvas,
+            0, 0, revealWidth, canvas.height,
+            0, 0, revealWidth, canvas.height
+        );
+
+        // update active player colors relative to decoded progress
+        const audio = getAudioElement();
+        if (audio.duration) {
+            updateWaveformProgress((audio.currentTime / audio.duration) * 100);
+        }
+
+        if (progress < 1) {
+            waveformAnimationId = requestAnimationFrame(step);
+        } else {
+            // lock down final static canvas
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+            ctx.drawImage(baseCanvas, 0, 0);
+            waveformAnimationId = null;
+        }
+    }
+
+    if (waveformAnimationId) cancelAnimationFrame(waveformAnimationId);
+    waveformAnimationId = requestAnimationFrame(step);
+}
+
+// waveform engine
+async function drawWaveform(url) {
+    const canvas = document.getElementById("waveform-canvas");
+    const progCanvas = document.getElementById("waveform-prog-canvas");
+    if (!canvas || !progCanvas) return;
+
+    const ctx = canvas.getContext("2d");
+    const progCtx = progCanvas.getContext("2d");
+
+    const requestId = ++waveformRequestId;
+
+    // use cached waveform data if available
+    if (waveformCache.has(url) && waveformBaseCanvasCache.has(url)) {
+        if (requestId !== waveformRequestId) return;
+
+        window.currentWaveformData = waveformCache.get(url);
+        ctx.drawImage(waveformBaseCanvasCache.get(url), 0, 0);
+        const audio = getAudioElement();
+        if (audio.duration) {
+            updateWaveformProgress((audio.currentTime / audio.duration) * 100);
+        }
+        return;
+    }
+
+    try {
+        const response = await fetch(url, { mode: "cors", cache: "force-cache" });
+        const arrayBuffer = await response.arrayBuffer();
+        if (requestId !== waveformRequestId) return;
+
+        const audioBuffer = await audioCtx.decodeAudioData(arrayBuffer);
+        if (requestId !== waveformRequestId) return;
+
+        const rawData = audioBuffer.getChannelData(0);
+
+        const barWidth = 2;
+        const gap = 1;
+        const stride = barWidth + gap;
+        const samples = Math.floor(canvas.width / stride);
+        const blockSize = Math.max(1, Math.floor(rawData.length / samples));
+        const filteredData = new Float32Array(samples);
+
+        // sample only a subset of frames in each block
+        const step = Math.max(1, Math.floor(blockSize / 32));
+
+        for (let i = 0; i < samples; i++) {
+            const blockStart = i * blockSize;
+            let max = 0;
+
+            for (let j = 0; j < blockSize; j += step) {
+                const sample = Math.abs(rawData[blockStart + j] || 0);
+                if (sample > max) max = sample;
+            }
+
+            filteredData[i] = max;
+        }
+
+        let peak = 0;
+        for (let i = 0; i < filteredData.length; i++) {
+            if (filteredData[i] > peak) peak = filteredData[i];
+        }
+        const multiplier = peak > 0 ? 1 / peak : 1;
+
+        const normalizedData = new Float32Array(filteredData.length);
+        for (let i = 0; i < filteredData.length; i++) {
+            normalizedData[i] = filteredData[i] * multiplier;
+        }
+
+        if (requestId !== waveformRequestId) return;
+
+        // pre-render static gray waveform to offscreen canvas
+        const baseCanvas = document.createElement("canvas");
+        baseCanvas.width = canvas.width;
+        baseCanvas.height = canvas.height;
+        const baseCtx = baseCanvas.getContext("2d");
+
+        baseCtx.fillStyle = "#cccccc";
+        for (let i = 0; i < normalizedData.length; i++) {
+            const x = i * stride;
+            const h = Math.max(1, normalizedData[i] * canvas.height * 0.9);
+            baseCtx.fillRect(x, canvas.height - h, barWidth, h);
+        }
+
+        waveformCache.set(url, normalizedData);
+        waveformBaseCanvasCache.set(url, baseCanvas);
+
+        window.currentWaveformData = normalizedData;
+
+        // smoothly sweep-in the parsed waveform
+        animateWaveformSweep(baseCanvas);
+
+    } catch (e) {
+        console.warn("Waveform bypass:", e);
+    }
+}
+
+function updateWaveformProgress(pct) {
+    const progCanvas = document.getElementById("waveform-prog-canvas");
+    const baseCanvas = document.getElementById("waveform-canvas");
+    if (!progCanvas || !baseCanvas || !window.currentWaveformData) return;
+
+    const ctx = progCanvas.getContext("2d");
+    ctx.clearRect(0, 0, progCanvas.width, progCanvas.height);
+
+    pct = Math.max(0, Math.min(100, pct));
+    const progressWidth = Math.floor(progCanvas.width * (pct / 100));
+    if (progressWidth <= 0) return;
+
+    // draw gray waveform slice, then tint it orange
+    ctx.drawImage(baseCanvas, 0, 0, progressWidth, progCanvas.height, 0, 0, progressWidth, progCanvas.height);
+    ctx.globalCompositeOperation = "source-in";
+    ctx.fillStyle = "#ff5500";
+    ctx.fillRect(0, 0, progressWidth, progCanvas.height);
+    ctx.globalCompositeOperation = "source-over";
+}
+
+// helpers
+function getAudioElement() {
+    if (!audioInstance) {
+        audioInstance = document.createElement("audio");
+        audioInstance.id = "audio";
+        document.body.appendChild(audioInstance);
+    }
+    return audioInstance;
+}
+
+function formatTime(seconds) {
+    if (isNaN(seconds) || !Number.isFinite(seconds)) return "0:00";
+    const m = Math.floor(seconds / 60);
+    const s = Math.floor(seconds % 60);
+    return `${m}:${s < 10 ? '0' : ''}${s}`;
+}
+
+function updateUI() {
+    const song = activePlaylist.getCurrentSong();
+    const player = document.getElementById("player");
+    if (!player || !song) return;
+
+    player.querySelector("#cover").src = song.coverLink;
+    player.querySelector("#title").textContent = song.title;
+    player.querySelector("#artist").textContent = song.artist;
+
+    if (!audioCtx) audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+    if (audioCtx.state === "suspended") audioCtx.resume();
+
+    // cancel any active transitions and display the default loading placeholder
+    if (waveformAnimationId) {
+        cancelAnimationFrame(waveformAnimationId);
+        waveformAnimationId = null;
+    }
+    drawPlaceholderWaveform();
+
+    const progCanvas = document.getElementById("waveform-prog-canvas");
+    if (progCanvas) {
+        progCanvas.getContext("2d").clearRect(0, 0, progCanvas.width, progCanvas.height);
+    }
+
+    requestAnimationFrame(() => {
+        setTimeout(() => drawWaveform(song.audioLink), 0);
+    });
+}
+
+function updatePlayPauseIcon(isPlaying) {
+    const btn = document.getElementById("playPauseButton");
+    if (btn) btn.innerHTML = isPlaying ? ASSETS.pause : ASSETS.play;
+}
+
+function safePlay(audio) {
+    const playPromise = audio.play();
+    if (playPromise !== undefined) {
+        playPromise.then(() => {
+            updatePlayPauseIcon(true);
+        }).catch(error => {
+            if (error.name === "AbortError") {
+                console.log("Play interrupted by a new request.");
+            } else {
+                updatePlayPauseIcon(false);
+            }
+        });
+    }
+}
+async function loadAndPlaySong() {
+    const audio = getAudioElement();
+    const song = activePlaylist.getCurrentSong();
+
+    updateUI();
+
+    audio.src = song.audioLink;
+    audio.load();
+
+    await safePlay(audio);
+}
+
+// setup
+function setupMusicPlayer() {
+    const gameWindow = document.getElementById("game_window");
+    if (!gameWindow || document.getElementById("player")) return;
+
+    const defaultSongs = [
+        ["Borderline", "Tame Impala", "https://imgs.search.brave.com/uQD26ypt4AjYTFsoM-F6e_b2tKdURflE7_IyYWa5eM0/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzLzk1LzA2/LzI0Lzk1MDYyNDFi/NzU1MTZkMDBkMGM2/YTAxYzRjZDc1MjUz/LmpwZw", "https://audio.jukehost.co.uk/019ef0f4-bda8-73d1-973a-54612ed125ba"],
+        ["The Less I Know The Better", "Tame Impala", "https://imgs.search.brave.com/3np3LlLswk8wYyBXexfmJgs736bI1yo4xUXjQB_xWt4/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9pMS5z/bmRjZG4uY29tL2Fy/dHdvcmtzLWFldGps/YU5SVkR6OFpSV0gt/czB6VHdBLXQxMDgw/eDEwODAuanBn", "https://audio.jukehost.co.uk/019ef0fc-ebf2-73db-addc-c6dc1ca359fc"],
+        ["Bout It", "JMSN", "https://imgs.search.brave.com/n5ECPJA3MtmyhCEMJQxv1h5s1klPU7IlGrjxFYm9Tlc/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9pczEt/c3NsLm16c3RhdGlj/LmNvbS9pbWFnZS90/aHVtYi9NdXNpYzIx/MS92NC81Yy9iZi8x/Yi81Y2JmMWIwZC00/Mzk1LWEzNDItNzYy/Mi00MmYwODUxZGUz/N2MvODU5NzEzNzQy/MjkxLmpwZy84MDB4/ODAwY2MuanBn", "https://audio.jukehost.co.uk/019ef10a-2935-71b1-84d7-52064d644c8c"],
+        ["Goth", "Sidewalks And Skeletons", "https://imgs.search.brave.com/cEvR9FZkzhU_SEUqU_MJvjKYFmMyx0gqt46bjALTo9k/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9pLnNj/ZG4uY28vaW1hZ2Uv/YWI2NzYxNmQwMDAw/MWUwMmJiYWY5ZGU2/YzQxOGEwYWE2Y2I3/YjkzOA", "https://audio.jukehost.co.uk/019ef10c-de9b-7076-a752-a57eddecfa80"]
+        
+
+    ];
+    if (activePlaylist.songs.length === 0) {
+        defaultSongs.forEach(d => activePlaylist.addSong(new Song(...d)));
+    }
+
+    // inject CSS
+    const style = document.createElement("style");
+    style.textContent = `
+    #player {
+      display: flex;
+      height: 160px;
+      background: #fff;
+      border: 1px solid #e5e5e5;
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      position: relative;
+      box-sizing: border-box;
+      margin-top: 10px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    }
+    #cover {
+      height: 100%;
+      width: 160px;
+      object-fit: cover;
+      border-right: 1px solid #e5e5e5;
+    }
+
+    #sc-main-content {
+        flex-grow: 1;
+        display: flex;
+        flex-direction: column;
+        padding: 15px;
+        position: relative;
+        min-width: 0;
+    }
+
+    #sc-top-bar {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        width: 100%;
+    }
+
+    #sc-play-info {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    #playPauseButton {
+        width: 46px;
+        height: 46px;
+        background: #ff5500;
+        border-radius: 50%;
+        border: none;
+        color: white;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: transform 0.1s;
+    }
+    #playPauseButton:active { transform: scale(0.95); }
+
+    .sc-play-svg { width: 25px; height: 25px; transform: translateX(-1px); }
+    .sc-pause-svg { width: 27px; height: 27px; }
+
+    #sc-meta {
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+    }
+    .sc-box {
+        background: #999;
+        color: #fff;
+        font-size: 12px;
+        padding: 2px 6px;
+        width: fit-content;
+        line-height: 1.2;
+    }
+    .sc-box.artist { background: #333; color: #ccc; }
+    .sc-box.title { background: #000; font-size: 16px; }
+
+    #sc-nav {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        color: #333;
+    }
+    .nav-btn {
+        background: none;
+        border: none;
+        cursor: pointer;
+        color: inherit;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .nav-btn svg { width: 20px; height: 20px; }
+    .nav-btn:hover { color: #ff5500; }
+
+    #volSlider {
+        width: 80px;
+        accent-color: #ff5500;
+        cursor: pointer;
+    }
+
+    #waveform-area {
+        position: relative;
+        flex-grow: 1;
+        margin-top: 15px;
+        cursor: pointer;
+    }
+    canvas {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    .time-stamp {
+        position: absolute;
+        bottom: 0;
+        background: #000;
+        font-size: 11px;
+        padding: 2px 4px;
+        z-index: 10;
+        pointer-events: none;
+        line-height: 1.2;
+    }
+    #time-current { left: 0; color: #ff5500; }
+    #time-total { right: 0; color: #ccc; }
+  `;
+    document.head.appendChild(style);
+
+    // create HTML
+    const container = document.createElement("div");
+    container.id = "player";
+    container.innerHTML = `
+    <img id="cover">
+    <div id="sc-main-content">
+        <div id="sc-top-bar">
+            <div id="sc-play-info">
+                <button id="playPauseButton">${ASSETS.play}</button>
+                <div id="sc-meta">
+                    <span id="artist" class="sc-box artist"></span>
+                    <span id="title" class="sc-box title"></span>
+                </div>
+            </div>
+            <div id="sc-nav">
+                <button id="prevBtn" class="nav-btn">${ASSETS.prev}</button>
+                <button id="nextBtn" class="nav-btn">${ASSETS.next}</button>
+                <div style="display:flex; align-items:center; gap:5px">
+                    <div class="nav-btn">${ASSETS.vol}</div>
+                    <input type="range" id="volSlider" min="0" max="1" step="0.05" value="0.8">
+                </div>
+            </div>
+        </div>
+        <div id="waveform-area">
+            <canvas id="waveform-canvas" width="1000" height="80"></canvas>
+            <canvas id="waveform-prog-canvas" width="1000" height="80"></canvas>
+            <div id="time-current" class="time-stamp">0:00</div>
+            <div id="time-total" class="time-stamp">0:00</div>
+        </div>
+    </div>
+  `;
+
+    gameWindow.insertAdjacentElement("afterend", container);
+
+    const audio = getAudioElement();
+    audio.volume = 0.8;
+
+    const playPauseBtn = document.getElementById("playPauseButton");
+
+    playPauseBtn.onclick = async () => {
+        if (!audioCtx) audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+        if (audioCtx.state === "suspended") await audioCtx.resume();
+
+        if (audio.paused) {
+            await safePlay(audio);
+        } else {
+            audio.pause();
+        }
+    };
+
+    document.getElementById("nextBtn").onclick = () => { activePlaylist.playNext(); loadAndPlaySong(); };
+    document.getElementById("prevBtn").onclick = () => { activePlaylist.playPrevious(); loadAndPlaySong(); };
+    document.getElementById("volSlider").oninput = (e) => { audio.volume = e.target.value; };
+
+    const timeCurrent = document.getElementById("time-current");
+    const timeTotal = document.getElementById("time-total");
+
+    audio.ontimeupdate = () => {
+        if (isDraggingWaveform || !audio.duration || isNaN(audio.duration)) return;
+
+        const pct = (audio.currentTime / audio.duration) * 100;
+        updateWaveformProgress(pct);
+
+        timeCurrent.textContent = formatTime(audio.currentTime);
+        timeTotal.textContent = formatTime(audio.duration);
+    };
+
+    audio.onloadedmetadata = () => {
+        timeTotal.textContent = formatTime(audio.duration);
+    };
+
+    const waveArea = document.getElementById("waveform-area");
+
+    const scrubWaveform = (e) => {
+        if (!audio.duration || isNaN(audio.duration)) return undefined;
+        const Math_min = Math.min;
+        const rect = waveArea.getBoundingClientRect();
+        let pct = (e.clientX - rect.left) / rect.width;
+        pct = Math.max(0, Math_min(1, pct));
+
+        updateWaveformProgress(pct * 100);
+        timeCurrent.textContent = formatTime(pct * audio.duration);
+        return pct;
+    };
+
+    waveArea.addEventListener("mousedown", (e) => {
+        isDraggingWaveform = true;
+        scrubWaveform(e);
+    });
+
+    window.addEventListener("mousemove", (e) => {
+        if (isDraggingWaveform) {
+            scrubWaveform(e);
+        }
+    });
+
+    window.addEventListener("mouseup", (e) => {
+        if (isDraggingWaveform) {
+            isDraggingWaveform = false;
+            const pct = scrubWaveform(e);
+            if (pct !== undefined) {
+                audio.currentTime = pct * audio.duration;
+            }
+        }
+    });
+
+    audio.onplay = () => updatePlayPauseIcon(true);
+    audio.onpause = () => updatePlayPauseIcon(false);
+    audio.onended = () => { activePlaylist.playNext(); loadAndPlaySong(); };
+
+    loadAndPlaySong();
+}
+
+setupMusicPlayer();
