@@ -105,7 +105,7 @@ campaignTrail_temp.questions_json = [
         "model": "campaign_trail.question",
         "pk": 6194,
         "fields": {
-            "description": "The Liberal Party under Justin Trudeau has seen a resurgence of popularity. Trudeau has stated multiple times that he wants "
+            "description": "The Liberal Party under Justin Trudeau has seen a resurgence of popularity. Trudeau has stated multiple times that he wants to restore it as the main political force of Canada. His support is spread out but this is exactly the problem. he's popular. He will steal a lot of votes away from you."
         }
     },
     {
@@ -798,6 +798,14 @@ campaignTrail_temp.answers_json = [
         "fields": {
             "question": 6444,
             "description": "We can call on him to address the core problems with the vetting process of his party but we can't try to twist this into being an attack on the party as a whole. It's clear that they don't represent their beliefs but it's still ridiculous how many times it has happened."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 6596,
+        "fields": {
+            "question": 6444,
+            "description": "We have heard this type of controversy from every level of the party. Earlier this election it was Bernier, now it's his candidates. It's a never ending cycle with this party."
         }
     }
 ];
@@ -3621,7 +3629,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 6554,
             "candidate": 1001,
             "affected_candidate": 1001,
-            "global_multiplier": 0.75
+            "global_multiplier": 0.075
         }
     },
     {
@@ -3631,7 +3639,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 6554,
             "candidate": 1001,
             "affected_candidate": 1002,
-            "global_multiplier": 0.3
+            "global_multiplier": 0.03
         }
     },
     {
@@ -3732,6 +3740,66 @@ campaignTrail_temp.answer_score_global_json = [
             "candidate": 1001,
             "affected_candidate": 1002,
             "global_multiplier": -0.015
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 6593,
+        "fields": {
+            "answer": 6591,
+            "candidate": 1001,
+            "affected_candidate": 1001,
+            "global_multiplier": 0.02
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 6594,
+        "fields": {
+            "answer": 6591,
+            "candidate": 1001,
+            "affected_candidate": 1002,
+            "global_multiplier": -0.015
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 6595,
+        "fields": {
+            "answer": 6591,
+            "candidate": 1001,
+            "affected_candidate": 1005,
+            "global_multiplier": 0.03
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 6598,
+        "fields": {
+            "answer": 6596,
+            "candidate": 1001,
+            "affected_candidate": 1001,
+            "global_multiplier": 0.02
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 6599,
+        "fields": {
+            "answer": 6596,
+            "candidate": 1001,
+            "affected_candidate": 1002,
+            "global_multiplier": -0.05
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 6600,
+        "fields": {
+            "answer": 6596,
+            "candidate": 1001,
+            "affected_candidate": 1005,
+            "global_multiplier": 0.03
         }
     }
 ];
@@ -6642,7 +6710,16 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 6591,
             "candidate": 1001,
-            "answer_feedback": "This is probably the best you could've done. You haven't been to aggressive but you also didn't let these incidents pass without consequences"
+            "answer_feedback": "This is probably the best you could've done. You haven't been too aggressive but you also didn't let these incidents pass without consequences."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 6597,
+        "fields": {
+            "answer": 6596,
+            "candidate": 1001,
+            "answer_feedback": "This attack has hurt the Conservatives significantly, your polling rises slightly but Trudeau turns this to being a point about him being the moderate most palatable choice. He rises through the polls significantly"
         }
     }
 ];
