@@ -21,7 +21,7 @@ campaignTrail_temp.questions_json = [
         "model": "campaign_trail.question",
         "pk": 1042,
         "fields": {
-            "description": "Your excitement wains as you realize that, while you have won, a majority isn't a possibility. You will need to appeal to more leftist MP's to try and gain a voting majority. The obvious answer is to get the Liberals on your side or even into a coalition. It's very likely that you won't be able to form a government due to the establishment not wanting to give up power. Some other sides are saying that conservatives might somehow be willing to work with you."
+            "description": "Your excitement wains as you realize that, while you have won, a majority isn't a possibility. You will need to appeal to more leftist MP's to try and gain a voting majority. The obvious answer is to get the Liberals on your side or even, in the best case, into a coalition. It's very likely that you won't be able to form a government due to the establishment not wanting to give up power. Some other sides are saying that conservatives might somehow be willing to work with you."
         }
     },
     {
@@ -49,7 +49,7 @@ campaignTrail_temp.questions_json = [
         "model": "campaign_trail.question",
         "pk": 5166,
         "fields": {
-            "description": "The opposition has been tearing it's throat for months now but it all came to a head at the conservative party national convention. Maxime Bernier denounced Harper and led a leadership challenge against him. Harper announced that he wouldn't run and Bernier took the early lead. The main opposition to Bernier's candidacy was form Andrew Scheer. A moderate conservative but he was way too far behind to be real opposition. Bernier's victory speech felt more like a platform to attack you, he made a few comments about multiculturalism that could be seen as derogatory."
+            "description": "The opposition has been tearing it's throat for months now but it all came to a head at the conservative party national convention. Maxime Bernier denounced Harper and led a leadership challenge against him. Harper announced that he wouldn't run and Bernier took the early lead. The main opposition to Bernier's candidacy was form Andrew Scheer. A moderate conservative but he was way too far behind to be real opposition. Bernier's victory speech felt more like a platform to attack you, he made a few comments about multiculturalism that could be seen as derogatory and could weaken him even further."
         }
     },
     {
@@ -405,7 +405,7 @@ campaignTrail_temp.answers_json = [
         "pk": 5858,
         "fields": {
             "question": 5517,
-            "description": "I need to relax. I've gone through election losses before, i can deal with this one if it comes to it."
+            "description": "I need to relax. I've gone through election losses before, I can deal with this one if it comes to it."
         }
     },
     {
@@ -445,7 +445,7 @@ campaignTrail_temp.answers_json = [
         "pk": 5865,
         "fields": {
             "question": 5527,
-            "description": "We have done many things in our first term and whenever i hear people thinking we didn't because it doesn't reach them, it hurts me. We'll increase the focus on farmers for our second term"
+            "description": "We have done many things in our first term and whenever I hear people thinking we didn't because it doesn't reach them, it hurts me. We'll increase the focus on farmers for our second term"
         }
     },
     {
@@ -501,7 +501,7 @@ campaignTrail_temp.answers_json = [
         "pk": 6023,
         "fields": {
             "question": 5523,
-            "description": "My friends, me and Donald Trump are about as different politically as me and Maxime Bernier. We almost never agree on anything however on this i think we have an agreement. Yes North Korea is a dictatorship but if we want to even have a sliver of chance at change then normalizing relations is the first step."
+            "description": "My friends, me and Donald Trump are about as different politically as me and Maxime Bernier. We almost never agree on anything however on this I think we have an agreement. Yes North Korea is a dictatorship but if we want to even have a sliver of chance at change then normalizing relations is the first step."
         }
     },
     {
@@ -741,7 +741,7 @@ campaignTrail_temp.answers_json = [
         "pk": 6539,
         "fields": {
             "question": 6195,
-            "description": "We need to take this seriously. My health can become an issue but we can't let it become a problem for us. We need to give a press conference and admit that i did in fact have a coughing fit but it's purely because i am catching a cold."
+            "description": "We need to take this seriously. My health can become an issue but we can't let it become a problem for us. We need to give a press conference and admit that I did in fact have a coughing fit but it's purely because I am catching a cold."
         }
     },
     {
@@ -7503,7 +7503,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 6645,
             "candidate": 1001,
-            "answer_feedback": "True. The greens are satisfied with this answer and stop attacking your campaign. This answer also establishes you as the statesman."
+            "answer_feedback": "True. The greens are satisfied with this answer and stop attacking your campaign. This answer also establishes you as the statesman between the three main candidates."
         }
     },
     {
