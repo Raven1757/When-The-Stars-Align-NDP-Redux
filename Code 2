@@ -17625,7 +17625,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 1001,
             "state": 24925,
-            "state_multiplier": 1.51
+            "state_multiplier": 1.91
         }
     },
     {
@@ -17634,7 +17634,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 1003,
             "state": 24925,
-            "state_multiplier": 0.39
+            "state_multiplier": 0.37
         }
     },
     {
@@ -17643,7 +17643,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 1004,
             "state": 24925,
-            "state_multiplier": 0.67
+            "state_multiplier": 0.39
         }
     },
     {
@@ -17652,7 +17652,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 1005,
             "state": 24925,
-            "state_multiplier": 1.07
+            "state_multiplier": 0.64
         }
     },
     {
@@ -20811,7 +20811,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 1001,
             "state": 25515,
-            "state_multiplier": 1.16
+            "state_multiplier": 1.42
         }
     },
     {
@@ -20820,7 +20820,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 1003,
             "state": 25515,
-            "state_multiplier": 0.51
+            "state_multiplier": 0.45
         }
     },
     {
@@ -20829,7 +20829,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 1004,
             "state": 25515,
-            "state_multiplier": 0.9
+            "state_multiplier": 0.66
         }
     },
     {
@@ -20838,7 +20838,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 1005,
             "state": 25515,
-            "state_multiplier": 0.69
+            "state_multiplier": 0.32
         }
     },
     {
@@ -35141,11 +35141,10 @@ campaignTrail_temp.jet_data = [{
         "1007": "Others"
     },
     "mapping_data": {
-        "electionPk": "20",
-        "x": 711.5384615384614,
-        "y": 711.5384615384614,
         "dx": -209,
-        "dy": -5
+        "dy": -5,
+        "x": 711.5384615384614,
+        "y": 711.5384615384614
     },
     "mapping_enabled": true,
     "banner_enabled": true
