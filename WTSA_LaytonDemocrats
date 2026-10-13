@@ -7,7 +7,7 @@ campaignTrail_temp.questions_json = [
         "model": "campaign_trail.question",
         "pk": 1042,
         "fields": {
-            "description": "Well Jack, you finally did it. Your fears of a fall back to third place were wrong and you've managed to get the first NDP government in Canadian history...but that's the past now. Your Prime Ministership started well, you got bills passed and managed a few victories but it quickly spiraled downwards. Your numbers are falling and now you are off the back of 3 By-election losses to the Conservatives with 3 more on the way, Becancour--Nicolet--Saurel, Scarborough--Rouge Park and Brampton Centre. We need to find a new direction if we want to win these elections and bring ourselves one step closer to a majority. What angle will you take to appeal to voters?\n"
+            "description": "Well Jack, you finally did it. Your fears of a fall back to third place were wrong and you've managed to get the first NDP government in Canadian history...but that's the past now. Your Prime Ministership started well, you got bills passed and managed a few victories but it quickly spiraled downwards. Your numbers are falling and now you are off the back of 3 By-election losses to the Conservatives with 3 more on the way, Becancour--Nicolet--Saurel, Scarborough--Rouge Park and Mississauga-Malton. We need to find a new direction if we want to win these elections and bring ourselves one step closer to a majority. What angle will you take to appeal to voters?\n"
         }
     },
     {
@@ -37469,7 +37469,41 @@ campaignTrail_temp.answer_score_global_json = [
 
 campaignTrail_temp.answer_score_issue_json = [];
 
-campaignTrail_temp.answer_score_state_json = [];
+campaignTrail_temp.answer_score_state_json = [
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 42695,
+        "fields": {
+            "answer": 5139,
+            "state": 42059,
+            "candidate": 1001,
+            "affected_candidate": 1001,
+            "state_multiplier": 0.002
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 42696,
+        "fields": {
+            "answer": 5139,
+            "state": 42191,
+            "candidate": 1001,
+            "affected_candidate": 1001,
+            "state_multiplier": 0.002
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 42697,
+        "fields": {
+            "answer": 5139,
+            "state": 42301,
+            "candidate": 1001,
+            "affected_candidate": 1001,
+            "state_multiplier": 0.002
+        }
+    }
+];
 
 campaignTrail_temp.answer_feedback_json = [
     {
@@ -37529,6 +37563,33 @@ campaignTrail_temp.campaign_sign_border_color = "#ffb10a";
 // [TCT_BANNER_SIGN_END]
 
 //#startcode
+(() => {
+    const css = [
+        "#campaign_sign {",
+        "    background-color: #d15400;",
+        "    border-style: solid;",
+        "    border-width: .5em;",
+        "    border-color: #ffb10a;",
+        "}"
+    ].join("\n");
+
+    const apply = () => {
+        let tag = document.getElementById("campaign_sign_style");
+        if (!tag) {
+            tag = document.createElement("style");
+            tag.id = "campaign_sign_style";
+            (document.head || document.documentElement).appendChild(tag);
+        }
+        tag.textContent = css;
+    };
+
+    if (document.readyState === "loading") {
+        document.addEventListener("DOMContentLoaded", apply);
+    } else {
+        apply();
+    }
+})();
+
 (() => {
     const css = [
         "#campaign_sign {",
