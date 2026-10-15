@@ -14,14 +14,14 @@ campaignTrail_temp.questions_json = [
         "model": "campaign_trail.question",
         "pk": 1044,
         "fields": {
-            "description": "You sit  in the oval office all alone. Nothing here to help you but yourself. Your party despises you and the opposition is emboldened beyond compare. they are projected to win a landslide not seen since Reagan in 1984. Your polling has you down by up to 17%. Approval ratings are a joke now. Not a great start but you've worked with bad starts before. For now a Vice President is top priority. Who will you choose to court."
+            "description": "It seems like there will be no way for these by-elections to go our way unless we get our act together. Our candidates are left out to dry while the conservatives are running wild and projection such as 338Canada are showing Conservative victories in Toronto and the Bloc gaining a second seat. This will be bad for us. We will lose 2 seats while conservatives will make gains and hold onto to theirs. We will need to try and spend time in one of those seats to try and gain support. Where will you campaign?"
         }
     },
     {
         "model": "campaign_trail.question",
         "pk": 1043,
         "fields": {
-            "description": "Ever since Feng showed his face in America you knew that he'd be nothing but trouble. Now trouble has reared it's ugly face. Down South you knew that you need to fight fire with fire but this time walking on eggshells might be for the best. You still have some options on what to do with him. The Chinese have offered to withdraw"
+            "description": "It seems like the Syrian crisis is flaring up again. There has been another wave of asylee demands from thousands of Syrians wishing to come to Canada for an actual life. Estimates put the wanted demand at nearly 50 thousand. Conservatives and surprisingly Liberals both say these numbers are too high. We can't leave them out to dry either however so a compromise will likely be needed. What plan will you go for?"
         }
     },
     {
@@ -202,7 +202,7 @@ campaignTrail_temp.answers_json = [
         "pk": 5143,
         "fields": {
             "question": 1043,
-            "description": "The Republicans can't beat us on the issues, like raising the minimum wage or making college more affordable. So instead their allies in the right-wing media use these non-stories and innuendo to defend the privilege of the 1%. There is nothing to see here."
+            "description": "Syria is in a state of collapse and their people aren't strangers, we are all birthed from the same cloth. We need to accept as many migrants as our economy can handle. The NDP plan is the only plan that's acceptable."
         }
     },
     {
@@ -210,7 +210,7 @@ campaignTrail_temp.answers_json = [
         "pk": 5144,
         "fields": {
             "question": 1043,
-            "description": "Let's take a step back. George Bush and Dick Cheney lost over 20 million emails from their time in office. I have already turned over every relevant email from my time as Secretary of State. Anything else is a right-wing hit job."
+            "description": "The Liberal plan isn't to our taste but it's the best we will get. Our fight is for human equality in Canada and the world, our fight can't be as restricted as the Conservative's plan but it's clear ours won't pass either."
         }
     },
     {
@@ -218,7 +218,7 @@ campaignTrail_temp.answers_json = [
         "pk": 5145,
         "fields": {
             "question": 1043,
-            "description": "I used the same email practices as Colin Powell and many other people in government. I was far too busy dealing with Russia, the Arab Spring, and the E.U. crisis to keep track of how IT was setting up my email system."
+            "description": "The Conservatives are our opposition but they are lending us a hand. This crisis is one which they would've easily attacked us on, no matter the option we chose but they are here, extending a hand to us. We should accept it and try to push it leftwards as much as possible"
         }
     },
     {
@@ -226,7 +226,7 @@ campaignTrail_temp.answers_json = [
         "pk": 5146,
         "fields": {
             "question": 1043,
-            "description": "This email system was a lapse in judgment, and I apologize. It was simply a matter of convenience to prevent me from carrying two phones everywhere, but if I was doing it again, I might do something different."
+            "description": "This might be out of the box but why don't we bring all leaders together and come up with a plan? This will be a defining crisis for our leadership and we need to show the strength of working together"
         }
     },
     {
@@ -234,7 +234,7 @@ campaignTrail_temp.answers_json = [
         "pk": 5147,
         "fields": {
             "question": 1044,
-            "description": "Donald Blythe is a good man, a representative who holds his values and his family close to heart. I see myself in him, in many ways. He'll make a perfect Vice President, for the first term at least."
+            "description": "Becancour--Nicolet--Saurel is my biggest worry. With the Bloc being our only real opponent it means we will have to deal with a lot of strategic voting."
         }
     },
     {
@@ -242,7 +242,7 @@ campaignTrail_temp.answers_json = [
         "pk": 5148,
         "fields": {
             "question": 1044,
-            "description": "Claire seems like a good choice. Yes, she hasn't held any political position before but she has been instrumental in my career and i believe that having someone who is in synch as much as her and I will be the perfect ticket to stabilize our broken nation"
+            "description": "Scarborough--Rouge Park should be our top priority. Some polls have us in third and we can't allow that to happen. If we fall below the Liberals this could spell disaster for our reelection."
         }
     },
     {
@@ -250,7 +250,7 @@ campaignTrail_temp.answers_json = [
         "pk": 5149,
         "fields": {
             "question": 1044,
-            "description": "Jackie Sharp, the congresswoman from California. She helps us with Women and Liberals while also helping in the biggest state of the Nation. We should at least try to court her support."
+            "description": "Mississauga-Malton. The seat is a pure three-way race and if we let the other parties move ahead we will be at a huge disadvantage for 2019."
         }
     },
     {
@@ -37464,6 +37464,86 @@ campaignTrail_temp.answer_score_global_json = [
             "affected_candidate": 1003,
             "global_multiplier": 0.01
         }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 42712,
+        "fields": {
+            "answer": 5143,
+            "candidate": 1001,
+            "affected_candidate": 1001,
+            "global_multiplier": -0.005
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 42713,
+        "fields": {
+            "answer": 5143,
+            "candidate": 1001,
+            "affected_candidate": 1003,
+            "global_multiplier": 0.005
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 42714,
+        "fields": {
+            "answer": 5143,
+            "candidate": 1001,
+            "affected_candidate": 1004,
+            "global_multiplier": 0.005
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 42715,
+        "fields": {
+            "answer": 5143,
+            "candidate": 1001,
+            "affected_candidate": 1005,
+            "global_multiplier": 0.003
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 42716,
+        "fields": {
+            "answer": 5144,
+            "candidate": 1001,
+            "affected_candidate": 1001,
+            "global_multiplier": 0.002
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 42717,
+        "fields": {
+            "answer": 5144,
+            "candidate": 1001,
+            "affected_candidate": 1003,
+            "global_multiplier": -0.005
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 42718,
+        "fields": {
+            "answer": 5144,
+            "candidate": 1001,
+            "affected_candidate": 1004,
+            "global_multiplier": 0.005
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 42719,
+        "fields": {
+            "answer": 5144,
+            "candidate": 1001,
+            "affected_candidate": 1005,
+            "global_multiplier": -0.002
+        }
     }
 ];
 
@@ -37502,6 +37582,72 @@ campaignTrail_temp.answer_score_state_json = [
             "affected_candidate": 1001,
             "state_multiplier": 0.002
         }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 42699,
+        "fields": {
+            "answer": 42693,
+            "state": 42059,
+            "candidate": 1001,
+            "affected_candidate": 1001,
+            "state_multiplier": -0.002
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 42700,
+        "fields": {
+            "answer": 42693,
+            "state": 42191,
+            "candidate": 1001,
+            "affected_candidate": 1001,
+            "state_multiplier": -0.002
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 42701,
+        "fields": {
+            "answer": 42693,
+            "state": 42301,
+            "candidate": 1001,
+            "affected_candidate": 1001,
+            "state_multiplier": -0.002
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 42705,
+        "fields": {
+            "answer": 5147,
+            "state": 42059,
+            "candidate": 1001,
+            "affected_candidate": 1001,
+            "state_multiplier": 0.005
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 42706,
+        "fields": {
+            "answer": 5148,
+            "state": 42301,
+            "candidate": 1001,
+            "affected_candidate": 1001,
+            "state_multiplier": 0.005
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 42707,
+        "fields": {
+            "answer": 5149,
+            "state": 42191,
+            "candidate": 1001,
+            "affected_candidate": 1001,
+            "state_multiplier": 0.005
+        }
     }
 ];
 
@@ -37521,7 +37667,70 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 42693,
             "candidate": 1001,
-            "answer_feedback": "Your base is happy but this won't work"
+            "answer_feedback": "Your base is happy but this might not necessarily work for the long term. If holding your values close is the the way you want to led your prime ministership then we can only hope that this leads to wins in the By-elections"
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 42702,
+        "fields": {
+            "answer": 5147,
+            "candidate": 1001,
+            "answer_feedback": "The Bloc is putting all their force on this riding, and with them currently leading the polls it will be even more difficult. However since their support has collapsed it will be a good way to try and remove the last vestiges of support they held."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 42703,
+        "fields": {
+            "answer": 5148,
+            "candidate": 1001,
+            "answer_feedback": "The Conservatives and Liberals especially are fighting hard here to gain this seat. Their supporters are energized and with your current slump it seems likely that the seat will flip, however this visit helps your chances"
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 42704,
+        "fields": {
+            "answer": 5149,
+            "candidate": 1001,
+            "answer_feedback": "This seat was considered as your only potential flip away from Conservatives"
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 42708,
+        "fields": {
+            "answer": 5143,
+            "candidate": 1001,
+            "answer_feedback": "Conservatives immediately flock together. The bloc claims outrage but their one seat isn't nearly enough to matter. The shock came from the Liberal vote of Nay. The plan dies in parliament, replaced by the Liberal one."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 42709,
+        "fields": {
+            "answer": 5144,
+            "candidate": 1001,
+            "answer_feedback": "The Conservatives vote Nay as expected but with both you and the Liberals voting Aye it was expected that you'd get a majority vote."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 42710,
+        "fields": {
+            "answer": 5145,
+            "candidate": 1001,
+            "answer_feedback": "With this so called \"Unholy Alliance\" the plan was clearly going to pass, you grit your teeth as the flood of anger sweeps in from the population, your approval falls even further but you know this was necessary"
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 42711,
+        "fields": {
+            "answer": 5146,
+            "candidate": 1001,
+            "answer_feedback": "Enter feedback text here"
         }
     }
 ];
@@ -37885,6 +38094,11 @@ cyoAdventure = function (a) {
     if (ans == 5139) {
         Ideology -= 2;
     }
+
+    // +2 Ideology
+    if (ans == 42693) {
+        Ideology += 2;
+    }
     // [JETS_CYOA_VARIABLE_EFFECTS_END]
 }
 
@@ -38200,6 +38414,13 @@ campaignTrail_temp.jet_data = [{
             "answer": 5139,
             "variable": "Ideology",
             "operation": "subtract",
+            "amount": 2
+        },
+        "42698": {
+            "id": 42698,
+            "answer": 42693,
+            "variable": "Ideology",
+            "operation": "add",
             "amount": 2
         }
     }
